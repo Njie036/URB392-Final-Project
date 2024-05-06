@@ -12,7 +12,7 @@ body {
 /* Colors */
 header, .intro, footer {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, 
-                url(./photos/goree.JPG) no-repeat center center fixed;
+                url(photos/IMG_6709.jpg) no-repeat center center fixed;
     background-size: cover; 
     color: #f9faf8;
     text-shadow:0px 0px 5px black,
@@ -147,14 +147,180 @@ img {
 .card:hover {
     color: #f9faf8;
 }
-.content-img {
+/* .content-img {
     width:144px;
     height:144px;
-    /* border: 3px solid #f7601b; */
     background-image: linear-gradient(180deg, #f7691b, rgba(0, 0, 0, 0));
     border-radius: 20px;
     transition: ease 0.1s;
+} */
+
+
+.content-img {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/goree.JPG"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
 }
+
+.content-imgYahooze {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Yahooze_Olu Maintain.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgWelcome {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/welcome home_osibisa.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgTogether {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Together As One_Lucky Dube.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+
+.content-imgTim {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/timbuktu.avif"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgSoundgasm {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Soundgasm_Rema.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+
+.content-imgSey {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Sey dou choix_Coumba_Faye.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgOju {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/ojuelegba_wizkid.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgNoMore {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/no more_youssou.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgManemi {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Mane Mi Nioul_Thione Seck.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgLiggeey {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Liggeey_Youssou Ndour.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgLevelUp {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/level up_burna boy.png"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgFreedom {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Is this Freedom_Lucky Dube.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+
+.content-imgColonial {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Colonial Mentality_Fela Kuti.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgCityBoy {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/City Boy_Burna Boy.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+.content-imgThione {
+    width: 144px;
+    height: 144px;
+    border-radius: 20px;
+    background-image: url("photos/Apartheid_Thione Seck.jpeg"); 
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    transition: ease 0.1s;
+}
+
+
+
 
 .content-img:hover {
     transform:scale(1.05);
